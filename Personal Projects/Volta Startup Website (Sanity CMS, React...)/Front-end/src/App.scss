@@ -1,0 +1,20 @@
+@use "./Styles/Colors" as color;
+@use "./Styles/Font" as font;
+@use "./Styles/Navbar";
+@use "./Styles/Footer";
+@use "./Styles/Landing";
+@use "./Styles/Contact.scss";
+@use "./Styles/Presentation";
+@use "./Styles/Projets";
+@use "./Styles/Activite";
+@use "./Styles/PreLoader";
+@use "./Styles/PageNotFound";
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.App{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;}

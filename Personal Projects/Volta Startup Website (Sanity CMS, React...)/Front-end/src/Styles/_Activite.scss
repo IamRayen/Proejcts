@@ -1,0 +1,145 @@
+@keyframes carousel-animation {
+    from{
+        transform: translateX(20px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+@keyframes text-animation {
+    from{
+        transform: translateX(-20px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+@media screen and (min-width:"1200px"){.activite-wrapper {
+    position: relative;
+    padding-top: 25vh;
+    .row {
+        height: 70vh;
+        .col {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .Container {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .Carousel-wrapper {
+                    transition: all 0.4s ease;
+                    width: 450px;
+                    height: 450px;
+                    transform: translateX(30px);
+                    .d-block{
+                        width: 450px;
+                        height: 450px;
+                    }
+                }
+                .activite-text {
+                    width: 600px;
+                    transition: all 0.4s ease;
+                    background-color: whitesmoke;
+                    z-index: 10;
+                    transform: translateX(-30px);
+                }
+            }
+            .Container2{
+                .Carousel-wrapper{
+                    transform: translate(-30px);
+                }
+                .activite-text{
+                    transform: translate(30px);
+                }
+            }
+            .Container:hover{
+                .Carousel-wrapper{
+                    transform: translateX(-10px);
+                }
+                .activite-text{
+                    transform: translateX(10px);
+                }
+            }
+            .Container2:hover{
+                .Carousel-wrapper{
+                    transform: translate(30px);
+                }
+                .activite-text{
+                    transform: translate(-30px);
+                }
+            }
+        }
+    }
+    .row1 {
+        background-color: white;
+    }
+    .row2 {
+        background-color: rgba(0, 33, 214, 0.055);
+    }
+}
+}
+
+@media screen and (max-width:"1200px") {
+    .activite-wrapper {
+        position: relative;
+        padding-top: 25vh;
+        width: 100%;
+        .row {
+            min-height: 70vh;
+            padding-top: 10px;
+            .col {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .Container {
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    width:100%;
+
+                    .Carousel-wrapper {
+                        transition: all 0.4s ease;
+                        width: 250px;
+                        height: 250px;
+                        margin-bottom: 10px;
+                        // transform: translateX(30px);
+                        animation: carousel-animation 1s ease forwards;
+                        .d-block{
+                            width: 250px;
+                            height: 250px;
+                        }
+                    }
+                    .activite-text {
+                        width: 100%;
+                        transition: all 0.4s ease;
+                        background-color: whitesmoke;
+                        animation: text-animation 1s ease forwards;
+                    }
+                }
+                .Container2{
+                    flex-direction: column-reverse;
+                    .Carousel-wrapper{
+                        animation: carousel-animation 1s ease forwards;
+                    }
+                    .activite-text{
+                        animation: text-animation 1s ease forwards;
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+        .row1 {
+            background-color: white;
+        }
+        .row2 {
+            background-color: rgba(0, 33, 214, 0.055);
+        }
+    }
+}

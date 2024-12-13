@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="74.636pt" height="40.768pt" viewBox="0 0 74.636 40.768">
+<g enable-background="new">
+<clipPath id="cp0">
+<path transform="matrix(1,0,0,-1,-90.316,144.828)" d="M 0 0 L 251.191 0 L 251.191 178.382 L 0 178.382 Z "/>
+</clipPath>
+<g clip-path="url(#cp0)">
+<g id="Layer-1" data-name="Calque 1">
+<text fill="#21458b" xml:space="preserve" transform="matrix(1 0 -0 1 -90.316 144.828)" font-size="11.6663" font-family="Square721BT" font-weight="bold"><tspan y="-124.085" x="125.3579 133.77164 142.57852 148.21335 154.27983">VOLTA</tspan></text>
+<text fill="#2e3a7b" xml:space="preserve" transform="matrix(1 0 -0 1 -90.316 144.828)" font-size="8.3761" font-family="Square721BT"><tspan y="-124.085" x="163.0283"> </tspan></text>
+<text fill="#231f20" xml:space="preserve" transform="matrix(1 0 -0 1 -90.316 144.828)" font-size="5.7507" font-family="Square721BT"><tspan y="-117.1841" x="127.2544 131.18213 135.4664 139.92319 144.02344 148.32497 150.80696 153.80883 155.28676 159.74355">CONSULTING</tspan></text>
+<clipPath id="cp1">
+<path transform="matrix(1,0,0,-1,-90.316,144.828)" d="M 0 178.382 L 251.191 178.382 L 251.191 0 L 0 0 Z "/>
+</clipPath>
+<g clip-path="url(#cp1)">
+<path transform="matrix(1,0,0,-1,30.318299,19.768403)" d="M 0 0 C 0 -8.107 -6.572 -14.681 -14.68 -14.681 C -22.788 -14.681 -29.36 -8.107 -29.36 0 C -29.36 8.108 -22.788 14.68 -14.68 14.68 C -6.572 14.68 0 8.108 0 0 " fill="#fff200"/>
+<path transform="matrix(1,0,0,-1,2.8182984,4.563797)" d="M 0 0 L 3.203 -8.01 C 4.275 -10.678 5.287 -13.369 6.33 -16.048 L 9.423 -24.099 L 12.449 -32.174 L 11.472 -32.134 L 15.153 -24.135 L 18.909 -16.17 L 19.652 -16.845 L 12.052 -21.259 L 10.299 -22.278 L 11.397 -20.585 L 18.106 -10.258 L 21.501 -5.12 L 24.925 0 L 21.79 -5.302 L 18.624 -10.584 L 12.216 -21.1 L 11.563 -20.426 L 19.119 -15.938 L 20.568 -15.078 L 19.862 -16.614 L 16.185 -24.615 L 12.433 -32.582 L 11.89 -33.735 L 11.455 -32.542 L 8.506 -24.437 L 5.623 -16.309 C 4.673 -13.596 3.693 -10.894 2.773 -8.168 Z " fill="#21458b"/>
+</g>
+<text fill="#21458b" xml:space="preserve" transform="matrix(1 0 -0 1 -90.316 144.828)" font-size="10" font-family="Square721BT" font-weight="bold"><tspan y="-32.7075" x="36.1499 43.361898 50.911897 55.739896 60.939897 68.439899 71.939899 75.439899 78.939899 85.869899 91.7399 97.7799 103.6299 108.689899 114.369899 121.35989 128.3499 135.3399 138.8399 146.0899 152.38991 155.88991 163.13991 168.82991 171.8699">VOLTA : Square721 BT Bold</tspan></text>
+<text fill="#21458b" xml:space="preserve" transform="matrix(1 0 -0 1 -90.316 144.828)" font-size="11.6663" font-family="Square721BT" font-weight="bold"><tspan y="-32.7075" x="177.7466"> </tspan></text>
+<text fill="#2e3a7b" xml:space="preserve" transform="matrix(1 0 -0 1 -90.316 144.828)" font-size="8.3761" font-family="Square721BT"><tspan y="-32.7075" x="181.8311"> </tspan></text>
+<text fill="#231f20" xml:space="preserve" transform="matrix(1 0 -0 1 -90.316 144.828)" font-size="5.7507" font-family="Square721BT"><tspan y="-23.1704" x="35.6362 39.563928 43.848199 48.304994 52.405244 56.706769 59.18877 62.190637 63.668565 68.12536 72.346378 74.29011 76.23384 78.177577 82.277828 85.57873 88.89113 92.140277 94.831607 98.08075 101.96822 105.8557 109.74317 111.686908 115.71815 118.72002 120.66375 124.68349 127.93263 133.01625 136.2654 139.5778">CONSULTING : Square721 BT Roman </tspan></text>
+<clipPath id="cp2">
+<path transform="matrix(1,0,0,-1,-90.316,144.828)" d="M 0 178.382 L 251.191 178.382 L 251.191 0 L 0 0 Z "/>
+</clipPath>
+<g clip-path="url(#cp2)">
+<path transform="matrix(1,0,0,-1,-90.316,144.828)" d="M 42.371 71.595 L 36.100999 71.595 L 36.100999 77.865 L 42.371 77.865 Z " fill="#21458b"/>
+<path transform="matrix(1,0,0,-1,-90.316,144.828)" d="M 42.371 63.014 L 36.100999 63.014 L 36.100999 69.285 L 42.371 69.285 Z " fill="#fff200"/>
+<path transform="matrix(1,0,0,-1,-90.316,144.828)" d="M 42.371 54.404 L 36.100999 54.404 L 36.100999 60.674 L 42.371 60.674 Z " fill="#231f20"/>
+</g>
+<text fill="#231f20" xml:space="preserve" transform="matrix(1 0 -0 1 -90.316 144.828)" font-size="4" font-family="Square721BT" font-weight="bold"><tspan y="-73.4746" x="46.2305 49.0545 50.454504 53.250505 56.046506 58.842508 60.242509 64.30651 65.70651 68.50251 71.29851 72.69851 75.18651 76.58651 79.38251 82.178508 83.57851 86.97851 88.37851">C 100 M 87 J 16 N 0</tspan><tspan y="-64.8946" x="46.2305 49.0545 50.454504 53.250505 54.650506 58.714506 60.114507 62.910509 64.31051 66.79851 68.19851 70.99451 73.790508 76.5865 77.9865 81.386508 82.78651">C 0 M 0 J 100 N 0</tspan><tspan y="-56.2866" x="46.2305 49.0545 50.454504 53.250505 54.650506 58.714506 60.114507 62.910509 64.31051 66.79851 68.19851 70.99451 72.39451 75.79451 77.19451 79.99051 82.78651">C 0 M 0 J 0 N 100</tspan></text>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,23 @@
+.App {
+  width: 100%;
+  position: absolute;
+  min-height: 100%;
+  max-height: none;
+  background-image: url("./imgs/pexels-cottonbro-4065876.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.Content {
+  position: relative;
+  top: 10rem;
+  left: 25%;
+  width: 50%;
+}
+.link{
+  color:grey
+}
+.link:hover{
+  color:white;
+  text-shadow: 2px 2px 4px black;
+}

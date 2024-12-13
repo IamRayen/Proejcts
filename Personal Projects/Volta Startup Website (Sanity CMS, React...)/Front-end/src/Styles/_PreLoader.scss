@@ -1,0 +1,11 @@
+.Preloader{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 33, 214);
+    color: white;
+    position: absolute;
+    z-index: 9999999999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

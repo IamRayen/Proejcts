@@ -1,0 +1,19 @@
+.App, .LooL {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-image: url("C:\Users\Rayen\Desktop\GomyCode\Router\routerapp\src\Components\pexels-donald-tong-109669.jpg");
+  background-size: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Carousel {
+  position: relative;
+}
+.Addmovie {
+  position: relative;
+}
+.filtering{
+  display: flex;
+}

@@ -1,0 +1,91 @@
+@use "./Colors" as color;
+
+.contact-wrapper {
+    
+    min-height: 100vh;
+    padding-top: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .contact {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        height: fit-content;
+        min-height: 75vh;
+        background-color: rgba(0, 33, 214, 0.5);
+        .ill {
+            position: absolute;
+            width: 35%;
+            height: 85%;
+            right: 8%;
+            top: 0px;
+        }
+        .contact-information{
+            width: 60%;
+            height: 100%;
+            z-index: 2;
+            .email{
+                position: relative;
+                width: fit-content;
+                color: black;
+                cursor: pointer;
+                padding-bottom: 5px;
+                font-size: 2rem;
+            }
+            .email::before{
+                position: absolute;
+                content: "";
+                background-color: yellow;
+                border-radius: 10px;
+                bottom: 0;
+                left: 0;
+                width: 10%;
+                height: 3px;
+                transition: width 0.5s ease;
+            }
+            .email:hover:before{
+                width: 100%;
+            }
+            .phone{
+                position: relative;
+                text-decoration: none;
+                width: fit-content;
+                color: black;
+                cursor: pointer;
+                padding-bottom: 5px;
+            }
+            .phone::before{
+                position: absolute;
+                content: "";
+                background-color: yellow;
+                border-radius: 10px;
+                bottom: 0;
+                left: 0;
+                width: 10%;
+                height: 3px;
+                transition: width 0.5s ease;
+            }
+            .phone:hover:before{
+                width: 100%;
+            }
+
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    .contact-wrapper {
+        .contact {
+            height: fit-content;
+            .contact-information{
+                width: 100%;
+                height: fit-content;
+                padding: 8px;
+                .email{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}

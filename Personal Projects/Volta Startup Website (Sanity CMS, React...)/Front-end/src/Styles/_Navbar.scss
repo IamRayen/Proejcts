@@ -1,0 +1,133 @@
+@use "./Font" as font;
+
+@keyframes underlineAnimation {
+    0% {
+        width: 0%;
+    }
+    50% {
+        width: 50%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.navbar {
+    --size: 25vh;
+    --scale: 1;
+    --hoverscale: 1.18;
+
+    position: relative;
+    height: var(--size);
+    box-shadow: 0;
+    transition-property: box-shadow height;
+    transition-timing-function: linear;
+    transition-duration: 0.8s;
+    .logo {
+        transform: scale(1.4);
+        width: 30%;
+        height: 80%;
+    }
+    .navigations {
+        width: 60%;
+        height: 100%;
+        .navigation {
+            position: relative;
+            transform: scale(var(--scale));
+            transition: transform 0.3s ease-in-out;
+            margin-left: 2px;
+            text-decoration: none;
+            color: white;
+            font-size: 1.8vw;
+            align-self: center;
+            padding: 10px;
+        }
+
+        .navigation::before {
+            position: absolute;
+            content: "";
+            bottom: 0;
+            width: 0%;
+            height: 3px;
+            left: 10%;
+            background-color: white;
+            transition: width 0.25s ease-in-out;
+        }
+        .contact::before {
+            position: absolute;
+            content: "";
+            bottom: 0;
+            width: 80%;
+            height: 3px;
+            background-color: white;
+            left: 10%;
+        }
+        .presentation::before {
+            position: absolute;
+            content: "";
+            bottom: 0;
+            width: 80%;
+            height: 3px;
+            background-color: white;
+            left: 10%;
+        }
+        .activites::before {
+            position: absolute;
+            content: "";
+            bottom: 0;
+            width: 80%;
+            height: 3px;
+            background-color: white;
+            left: 10%;
+        }
+        .projets::before {
+            position: absolute;
+            content: "";
+            bottom: 0;
+            width: 80%;
+            height: 3px;
+            background-color: white;
+            left: 10%;
+        }
+        .accueil::before {
+            position: absolute;
+            content: "";
+            bottom: 0;
+            width: 80%;
+            height: 3px;
+            background-color: white;
+            left: 10%;
+        }
+
+        .navigation:hover {
+            transform: scale(var(--hoverscale));
+        }
+        .navigation:hover:before {
+            width: 80%;
+        }
+    }
+    .navigation2 {
+        text-decoration: none;
+    }
+}
+.scrolled {
+    --size: 15vh;
+    --scale: 0.75;
+    --hoverscale: 1;
+}
+.landingPage{
+    --size: 15vh;
+    --scale: 0.75;
+    --hoverscale: 1;
+    .navigations{
+        width: 80%;
+    }
+    .logo{
+        display: none;
+    }
+}
+.trans {
+    background-color: rgba(0, 33, 214, 0.5);
+    box-shadow: none;
+}
+

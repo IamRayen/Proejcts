@@ -1,0 +1,133 @@
+@use "./Colors" as color;
+
+.presentation-wrapper {
+    min-height: 100vh;
+    padding-top: 25vh;
+    .presentation-generale {
+        position: relative;
+        min-height: 75vh;
+
+        .first-part {
+            position: relative;
+            .illustration-presentation {
+                height: 400px;
+            }
+            .presentation-text {
+                width: 50%;
+            }
+        }
+        .second-part {
+            position: relative;
+            .GoToTeamBtn {
+                text-decoration: none;
+                font-size: 40px;
+                color: color.$blueColor;
+                opacity: 0.8;
+                padding-left: 8px;
+                transition: all 0.4s ease;
+            }
+            .GoToTeamBtn:hover {
+                background-color: color.$blueColor;
+                opacity: 0.8;
+                color: white;
+                border-radius: 10px;
+                padding-left: 8px;
+                transform: scale(1.05);
+            }
+        }
+    }
+    .equipe {
+        padding-top: 15vh;
+        .members {
+            .Card{
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            .desc {
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                height: 225px;
+                width: 90%;
+                opacity: 0;
+                background-color: whitesmoke;
+                transition: opacity 0.3s ease;
+                border-radius: 50%;
+                margin-top: 5px;
+                cursor: pointer;
+            }
+            .CardImg{
+                width: 90%;
+                margin-top: 5px;
+            }
+            .desc:hover {
+                opacity: 1;
+            }
+        }}
+    }
+    .competences-section {
+        min-height: 100vh;
+        .competences-wrapper {
+            overflow-x: hidden;
+            position: relative;
+
+            .sliderNav {
+                position: absolute;
+                cursor: pointer;
+                width: 100px;
+                height: 100px;
+                z-index: 1;
+            }
+            .sliderNav:hover {
+                color: color.$blueColor;
+                opacity: 0.5;
+            }
+            .sliderNavRight {
+                top: 35%;
+                right: 0;
+            }
+            .sliderNavLeft {
+                top: 35%;
+                left: 0;
+            }
+            .competences {
+                width: max-content;
+                overflow-y: hidden;
+                transition: transform 0.5s ease;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .presentation-wrapper {
+        .presentation-generale {
+            position: relative;
+
+            .first-part {
+                position: relative;
+                min-height: 70vh;
+                .illustration-presentation {
+                    display: none;
+                }
+                .presentation-text {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    .presentation-wrapper {
+        .presentation-generale {
+            .first-part {
+                .presentation-text {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

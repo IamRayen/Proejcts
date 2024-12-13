@@ -1,0 +1,158 @@
+@use "./Colors" as color;
+@use "./Font" as font;
+
+.LandingPage {
+    position: relative;
+    min-height: 100vh;
+    .LandingScreen {
+        position: relative;
+        background-image: url(../images/sergey-zolkin-m9qMoh-scfE-unsplash-min.jpg);
+        background-size: cover;
+        width: 100%;
+        min-height: 100vh;
+        padding-top: 15vh;
+        .headers-wrapper {
+            .Row {
+                .logo {
+                    height: 120px;
+                }
+            }
+            .headers {
+                .Coll {
+                    width: 50%;
+                    position: relative;
+                    .pg {
+                        background-color: rgba(255, 255, 255, 0.5);
+                        border-radius: 10px 10px 10px 0px;
+                    }
+
+                    overflow-wrap: break-word;
+                    height: 50vh;
+
+                    h2 {
+                        strong {
+                            color: white;
+                        }
+                        text-align: left;
+                        color: color.$yellowColor;
+                        word-spacing: 10px;
+                    }
+
+                    .contact-us-call {
+                        letter-spacing: 10px;
+                        font-size: 20px;
+                        color: white;
+                    }
+
+                    .contact-us {
+                        height: 75px;
+                        width: 80%;
+                        border: 2px solid color.$yellowColor;
+                        background: transparent;
+                        font-size: 1.8em;
+                        font-weight: bold;
+                        color: color.$yellowColor;
+                        box-shadow: inset 0 0 0.3rem 0 color.$yellowColor,
+                            0 0 0.3rem 0 color.$yellowColor;
+                        transition: all 0.3s ease;
+                    }
+                    .contact-us:hover {
+                        color: white;
+                        font-size: 2em;
+                        background-color: rgba(255, 255, 0, 0.75);
+                        border: none;
+                        box-shadow: none;
+                    }
+                    .Check-tem {
+                        font-size: 30px;
+                        color: white;
+                        a {
+                            text-decoration: none;
+                            color: rgba(255, 255, 0);
+                            position: relative;
+                            overflow: hidden;
+                            cursor: pointer;
+                            transition: all 0.4s ease;
+                        }
+                        a::before {
+                            content: "";
+                            transition: all 0.35s ease;
+                            width: 0%;
+                            position: absolute;
+                            background-color: rgba(255, 255, 0, 0.75);
+                            left: 0;
+                            top: 0;
+                            height: 100%;
+                            border-radius: 8px;
+                        }
+                        a:hover {
+                            color: white;
+                            z-index: 2;
+                        }
+                        a:hover:before {
+                            width: 100%;
+                            z-index: -1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .Testimonials-wrapper {
+        background-image: url(../images/tim-trad-BwmOGbS2POw-unsplash-min.jpg);
+        background-size: cover;
+        min-height: 100vh;
+        padding-top: 10px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        .Testimonials {
+            position: relative;
+            .test-text {
+                color: white;
+                letter-spacing: 1em;
+                margin-top: 50px;
+            }
+            .test-container {
+                position: relative;
+                width: 100%;
+                height: 100%;
+
+                .tests {
+                    width: 100%;
+                    background-color: rgba(0, 0, 0, 0.2);
+                    border-radius: 10px 10px 10px 0;
+
+                    .tests-text {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .LandingPage {
+        min-height: none;
+        .LandingScreen {
+            min-height: none;
+            .headers-wrapper {
+                .Row {
+                    .logo {
+                        height: 90px;
+                    }
+                }
+                .headers {
+                    .Coll {
+                        width: 100%;
+                        height: fit-content;
+                        .contact-us {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
